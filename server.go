@@ -11,7 +11,9 @@ func main() {
 
 	handler := http.NewServeMux()
 
-	for i := 0; i < 10; i++ {
+	const numEndpoints = 1
+
+	for i := 0; i < numEndpoints; i++ {
 		route := fmt.Sprintf("/cluster/%d", i)
 
 		handler.HandleFunc(route, func(w http.ResponseWriter, r *http.Request) {
