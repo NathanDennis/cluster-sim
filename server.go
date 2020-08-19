@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"time"
 )
@@ -23,6 +24,8 @@ func main() {
 				"routeName": route,
 				"message":   route + " hit",
 			})
+
+			log.Printf("[%s] %s - %s %s", r.RemoteAddr, r.Method, r.Host, r.URL.Path)
 		})
 	}
 
