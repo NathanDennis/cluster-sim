@@ -33,5 +33,6 @@ func main() {
 		WriteTimeout: 10 * time.Second,
 	}
 
+	fmt.Printf("Server listening on %s\n", s.Addr)
 	s.ListenAndServe()
 }
