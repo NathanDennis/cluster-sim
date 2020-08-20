@@ -19,3 +19,4 @@ A project to learn about simulating http traffic to a Go server and load balanci
 #### Notes
 - server.go build command on Windows to run on Pi - `env GOOS=linux GOARCH=arm GOARM=6 go build`
 Full setup instructions for cloning and contributions to come
+- NGINX Pi start `sudo /etc/init.d/nginx start`
