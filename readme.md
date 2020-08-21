@@ -15,6 +15,7 @@ A project to learn about simulating http traffic to a Go server and load balanci
 - NGINX installed on Pi 1
 - Go server binary running on both Pis in the cluster
 
+![gif demonstration of NGINX working on Pi cluster](https://i.imgur.com/lVXFgMB.gif)
 
 #### Notes
 - server.go build command on Windows to run on Pi - `env GOOS=linux GOARCH=arm GOARM=6 go build`
