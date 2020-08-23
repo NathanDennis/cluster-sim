@@ -8,7 +8,7 @@ A project to learn about simulating http traffic to a Go server and load balanci
 - [NGINX](https://nginx.org/en/) - Load balancing
 
 #### Current setup
-- Desktop - WSL2 running Ubuntu 20.04 LTS
+- Docker Desktop to run [wrk Docker Image](https://hub.docker.com/r/williamyeh/wrk)
 - x2 Raspberry Pi 4 Model B 2GB - Raspberry Pi OS Lite 2020-05-27
 
 #### Current progress
